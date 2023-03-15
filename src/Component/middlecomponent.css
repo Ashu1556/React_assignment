@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+  .Middlecomponent {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+  .component_container {
+    margin-top: 5em;
+    margin-left: 2em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

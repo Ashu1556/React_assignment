@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.headercontainer1 {
+  width: 100%;
+  height: 100%;
+}
+.headercontainer {
+  width: 100%;
+  height: 10%;
+}
+.headercontainer11 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: -30em;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+  .headercontainer {
+    width: 100%;
+    height: 10%;
+  }
+  .headercontainer11 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: -30em;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  }
+}
